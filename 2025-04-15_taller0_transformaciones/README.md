@@ -1,3 +1,61 @@
+# Prompts
+
+Para realizar los proyectos se hizo uso de la IA de ChatGPT en su versión GPT-4o, y para obtener los codigos y algunas explicaciones que terminaron por nutrir las descripciones se usaron los siguientes prompts:
+
+## Prompt Python
+
+💻 Python (Colab o Jupyter Notebook)
+Herramientas: matplotlib, numpy, imageio
+Crear una figura 2D con puntos o formas
+Aplicar traslación, rotación y escala usando matrices de transformación
+Generar una animación (usando bucles o interpolación)
+Animar la transformación en función del tiempo (t) o del frame
+Exportar como GIF animado con imageio
+Opcional: mostrar la matriz resultante de cada transformación y cómo cambia con el tiempo
+
+----------------------------------------------------------------------------------------------------------------------
+
+## Prompt Threejs
+Escenario:
+Crear un proyecto con Vite y React Three Fiber
+Agregar un objeto 3D (cubo o esfera)
+Aplicar animaciones con useFrame para:
+Trasladar el objeto por una trayectoria senoidal o circular
+Rotarlo sobre su propio eje con incremento en cada frame
+Escalarlo suavemente con una función temporal (Math.sin(clock.elapsedTime))
+Bonus: incluir OrbitControls para navegar la escena
+
+
+----------------------------------------------------------------------------------------------------------------------
+## Prompt Processing
+
+La siguiente tarea debe ser realizada en Processing:
+
+Escenario:
+Crear un sketch simple (2D o 3D)
+Dibujar una figura geométrica (rect, ellipse o box)
+Aplicar transformaciones usando:
+translate(), rotate(), scale()
+pushMatrix() y popMatrix() para aislar transformaciones
+frameCount, millis() o sin() para crear transformaciones en el tiempo
+Ejemplo: un cubo que gira, se traslada de forma ondulada y se escala cíclicamente en función del tiempo transcurrido
+
+--------------------------------
+## Prompt Unity 
+
+Ayúdame con lo siguiente:
+
+🎮 Unity (versión LTS)(Opcional)
+Escenario:
+Crear un proyecto vacío en 3D
+Agregar un cubo o esfera a la escena
+Crear un script en C# que aplique:
+Traslación aleatoria por eje X o Y cada ciertos segundos
+Rotación constante dependiente de Time.deltaTime
+Escalado oscilante en función de Mathf.Sin(Time.time)
+Requisitos: usar transform.Translate(), transform.Rotate(), transform.localScale
+
+--------------------------------
 # Threejs
 
 Este proyecto utiliza **React Three Fiber** para crear una escena 3D interactiva con un objeto (cubo) que tiene animaciones aplicadas. Las animaciones incluyen:
