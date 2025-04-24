@@ -58,6 +58,12 @@ Requisitos: usar transform.Translate(), transform.Rotate(), transform.localScale
 --------------------------------
 # Threejs
 
+
+
+https://github.com/user-attachments/assets/05291167-c732-43c8-b45e-d3d3e87f7088
+
+
+
 Este proyecto utiliza **React Three Fiber** para crear una escena 3D interactiva con un objeto (cubo) que tiene animaciones aplicadas. Las animaciones incluyen:
 
 - **Traslación aleatoria** (movimiento oscilante a lo largo del eje X).
@@ -65,43 +71,6 @@ Este proyecto utiliza **React Three Fiber** para crear una escena 3D interactiva
 - **Escalado oscilante** en función de la función temporal `Math.sin`.
 
 Además, se integra el control de cámara mediante **OrbitControls** para permitir la navegación interactiva en la escena.
-
----
-
-## 🚀 Requisitos
-
-Para ejecutar este proyecto, asegúrate de tener instalado:
-
-- **Node.js** (v16 o superior).
-- **npm** (v7 o superior).
-
----
-
-## 🔧 Instalación
-
-1. Clona este repositorio o crea un nuevo proyecto en Vite:
-   ```bash
-   git clone <repositorio-url>
-   cd <nombre-del-proyecto>
-   ```
-
-2. Instala las dependencias:
-   ```bash
-   npm install
-   ```
-
----
-
-## 📂 Estructura del Proyecto
-
-El proyecto tiene la siguiente estructura básica:
-
-```
-/src
-  /App.jsx         // Componente principal con la escena 3D y animaciones.
-  /index.js        // Punto de entrada de la aplicación.
-  /styles.css      // Estilos de la aplicación.
-```
 
 ---
 
@@ -141,29 +110,9 @@ El componente `App` configura el **Canvas** de **React Three Fiber** donde la es
 
 ---
 
-## 📜 Cómo Ejecutar el Proyecto
-
-1. Ejecuta el servidor de desarrollo:
-   ```bash
-   npm run dev
-   ```
-
-2. Abre tu navegador y accede a [http://localhost:3000](http://localhost:3000) para ver la escena en vivo.
-
----
-
-## 📦 Paquetes Usados
-
-Este proyecto utiliza los siguientes paquetes de Node.js:
-
-- **React**: Biblioteca para construir interfaces de usuario.
-- **React Three Fiber**: Biblioteca para trabajar con **Three.js** dentro de **React**.
-- **Three.js**: Biblioteca de JavaScript para gráficos 3D.
-- **@react-three/drei**: Herramientas útiles para React Three Fiber, incluyendo **OrbitControls**.
-
----
-
 # Python
+![animacion_transformaciones](https://github.com/user-attachments/assets/430e3564-8cb0-4940-8fb0-1d6d154bdb2b)
+
 
 ## 🔧 Descripción del Código
 
@@ -239,6 +188,13 @@ Este proyecto utiliza los siguientes paquetes de Node.js:
 - **Escalado Oscilante:** El triángulo aumenta y disminuye su tamaño suavemente con el tiempo.
 
 # Processing
+
+
+
+https://github.com/user-attachments/assets/444b3f5b-5400-4ecc-9053-a2c2afc7be0e
+
+
+
 
 ## 🚀 Descripción del Proyecto
 
@@ -329,6 +285,11 @@ box(100); // Dibujar cubo
 - **Escalado**: El cubo cambia de tamaño de forma oscilante, haciendo que parezca que **crece y se reduce** con el tiempo.
 
 # Unity
+
+
+
+https://github.com/user-attachments/assets/43ff1c76-b280-4ae7-ac1d-838f03d7a541
+
 
 
 ## 🚀 Descripción del Proyecto
